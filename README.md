@@ -9,10 +9,8 @@
 
 ## 🖥️ Screenshots
 
-<!-- TODO: Add actual screenshots of the application, including mobile views. -->
-<!-- Example: -->
-<!-- ![Screenshot of Homepage](path/to/homepage-screenshot.png) -->
-<!-- ![Screenshot of Product Page](path/to/product-screenshot.png) -->
+![Screenshot of Homepage](/public/fizzi.png)
+![Screenshot of Product Page](/public/fizzi2.png)
 
 ## 🛠️ Tech Stack
 
@@ -63,14 +61,6 @@ Make sure you have the following installed:
     ```bash
     cp .env.example .env
     ```
-    Configure your environment variables with your Prismic repository details:
-    ```ini
-    # .env
-    NEXT_PUBLIC_PRISMIC_ENVIRONMENT=YOUR_PRISMIC_REPOSITORY_ID # e.g., "my-fizzisoda-repo"
-    PRISMIC_ACCESS_TOKEN=YOUR_PRISMIC_ACCESS_TOKEN # Only if your repository is private
-    ```
-
-    You can find your Prismic Repository ID in the URL when you're logged into your Prismic dashboard (e.g., `https://your-repository-id.prismic.io/dashboard`).
 
 4.  **Start development server**
     ```bash
